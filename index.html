@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PHOS OPUS — Visual Media Studio</title>
+  <meta name="description" content="Phos Opus — Cinematic video & photography for real estate, commercials, chef promos, construction, and brands. Based in Newberry & Columbia, SC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,600;0,700;1,300;1,700&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,600&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NOISE OVERLAY -->
+<div class="noise" aria-hidden="true"></div>
+
+<!-- CUSTOM CURSOR -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">PHOS<span>OPUS</span></div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">PHOS<span class="acc">OPUS</span></a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#work" class="nav-link">Work</a></li>
+    <li><a href="#services" class="nav-link">Services</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Us</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-reel" aria-hidden="true">
+    <div class="reel-strip reel-1">
+      <span>REAL ESTATE</span><span>✦</span><span>COMMERCIAL</span><span>✦</span><span>CHEF PROMO</span><span>✦</span><span>CONSTRUCTION</span><span>✦</span>
+      <span>REAL ESTATE</span><span>✦</span><span>COMMERCIAL</span><span>✦</span><span>CHEF PROMO</span><span>✦</span><span>CONSTRUCTION</span><span>✦</span>
+    </div>
+    <div class="reel-strip reel-2">
+      <span>PHOTOGRAPHY</span><span>◆</span><span>VIDEOGRAPHY</span><span>◆</span><span>BRAND MEDIA</span><span>◆</span><span>APARTMENTS</span><span>◆</span>
+      <span>PHOTOGRAPHY</span><span>◆</span><span>VIDEOGRAPHY</span><span>◆</span><span>BRAND MEDIA</span><span>◆</span><span>APARTMENTS</span><span>◆</span>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="avail-dot"></span>
+      Newberry & Columbia, SC — Est. 2019
+    </div>
+    <h1 class="hero-title">
+      <span class="line-wrap"><span class="line reveal-line">WE MAKE</span></span>
+      <span class="line-wrap"><em class="line reveal-line italic-line">visuals</em></span>
+      <span class="line-wrap"><span class="line reveal-line stroke-line">THAT SELL.</span></span>
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">Cinematic video &amp; photography for real estate, commercials, chefs, construction &amp; brands — built to stop the scroll and close the deal.</p>
+      <a href="#work" class="btn-primary">
+        View Our Work
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <span class="stat-num" data-target="5">0</span><span class="stat-unit">YRS</span>
+      <span class="stat-label">Experience</span>
+    </div>
+    <div class="stat-divider" aria-hidden="true"></div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="20">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Projects Filmed</span>
+    </div>
+    <div class="stat-divider" aria-hidden="true"></div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="40">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Happy Clients</span>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-band" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Real Estate</span><span class="sep">✦</span>
+    <span>Commercials</span><span class="sep">✦</span>
+    <span>Chef Promos</span><span class="sep">✦</span>
+    <span>Construction</span><span class="sep">✦</span>
+    <span>Apartments</span><span class="sep">✦</span>
+    <span>Brand Media</span><span class="sep">✦</span>
+    <span>Photography</span><span class="sep">✦</span>
+    <span>Videography</span><span class="sep">✦</span>
+    <span>Real Estate</span><span class="sep">✦</span>
+    <span>Commercials</span><span class="sep">✦</span>
+    <span>Chef Promos</span><span class="sep">✦</span>
+    <span>Construction</span><span class="sep">✦</span>
+    <span>Apartments</span><span class="sep">✦</span>
+    <span>Brand Media</span><span class="sep">✦</span>
+    <span>Photography</span><span class="sep">✦</span>
+    <span>Videography</span><span class="sep">✦</span>
+  </div>
+</div>
+
+<!-- WORK -->
+<section id="work" class="section">
+  <div class="section-header reveal">
+    <div>
+      <div class="section-label">Our Portfolio</div>
+      <h2 class="section-title">THE <em>WORK</em></h2>
+    </div>
+    <p class="section-sub">From luxury apartments to chef promos — every frame is intentional.</p>
+  </div>
+
+  <!-- FILTER TABS -->
+  <div class="filter-tabs reveal">
+    <button class="tab active" data-filter="all">All</button>
+    <button class="tab" data-filter="realestate">Real Estate</button>
+    <button class="tab" data-filter="commercial">Commercial</button>
+    <button class="tab" data-filter="promo">Promo</button>
+    <button class="tab" data-filter="construction">Construction</button>
+  </div>
+
+  <div class="work-grid" id="work-grid">
+
+    <!-- Station at Lake Murray -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-apartment1">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Apartment</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Station at Lake Murray</h3>
+        <p class="work-sub">Luxury Apartment — Cinematic Tour</p>
+      </div>
+    </div>
+
+    <!-- Encore Apartments -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-apartment2">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Apartment</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Encore Apartments</h3>
+        <p class="work-sub">Luxury Apartment — Aerial + Interior</p>
+      </div>
+    </div>
+
+    <!-- Crow Creek -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-apartment3">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Apartment</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Crow Creek</h3>
+        <p class="work-sub">Apartment Complex — Full Media Package</p>
+      </div>
+    </div>
+
+    <!-- Work Better Commercial -->
+    <div class="work-card reveal work-card--wide" data-cat="commercial">
+      <div class="work-thumb bg-commercial">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Commercial</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Work Better</h3>
+        <p class="work-sub">Brand Commercial — Story-Driven Campaign</p>
+      </div>
+    </div>
+
+    <!-- Chef Promo -->
+    <div class="work-card reveal work-card--wide" data-cat="promo">
+      <div class="work-thumb bg-chef">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Chef Promo</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Chef Promo Video</h3>
+        <p class="work-sub">Culinary Brand — Cinematic Promo</p>
+      </div>
+    </div>
+
+    <!-- Construction -->
+    <div class="work-card reveal" data-cat="construction">
+      <div class="work-thumb bg-construction">
+        <div class="play-icon" aria-hidden="true">▶</div>
+        <div class="work-cat-tag">Construction</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Construction Showcase</h3>
+        <p class="work-sub">Build Process — Documentary Video</p>
+      </div>
+    </div>
+
+    <!-- Real Estate Photo 1 -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-photo1">
+        <div class="work-cat-tag">Photography</div>
+        <div class="photo-icon" aria-hidden="true">⬛</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Residential Listing #1</h3>
+        <p class="work-sub">Real Estate Photography</p>
+      </div>
+    </div>
+
+    <!-- Real Estate Photo 2 -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-photo2">
+        <div class="work-cat-tag">Photography</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Residential Listing #2</h3>
+        <p class="work-sub">Real Estate Photography</p>
+      </div>
+    </div>
+
+    <!-- Real Estate Photo 3 -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-photo3">
+        <div class="work-cat-tag">Photography</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Residential Listing #3</h3>
+        <p class="work-sub">Real Estate Photography</p>
+      </div>
+    </div>
+
+    <!-- Real Estate Photo 4 -->
+    <div class="work-card reveal" data-cat="realestate">
+      <div class="work-thumb bg-photo4">
+        <div class="work-cat-tag">Photography</div>
+      </div>
+      <div class="work-info">
+        <h3 class="work-title">Residential Listing #4</h3>
+        <p class="work-sub">Real Estate Photography</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section section--dark">
+  <div class="section-header reveal">
+    <div>
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">SERVICES</h2>
+    </div>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-num">01</div>
+      <div class="service-body">
+        <h3 class="service-name">Real Estate Media</h3>
+        <p class="service-desc">Cinematic listing videos, aerial drone footage, and professional photography that sells properties faster and at higher prices.</p>
+        <ul class="service-list">
+          <li>Listing Videos</li>
+          <li>Drone Aerials</li>
+          <li>Interior Photography</li>
+          <li>Apartment Walkthroughs</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">02</div>
+      <div class="service-body">
+        <h3 class="service-name">Commercial Video</h3>
+        <p class="service-desc">Story-driven brand commercials that cut through the noise. We handle concept to final cut — built to convert.</p>
+        <ul class="service-list">
+          <li>Brand Commercials</li>
+          <li>Product Videos</li>
+          <li>Ad Campaigns</li>
+          <li>Social Content</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">03</div>
+      <div class="service-body">
+        <h3 class="service-name">Promo & Brand Media</h3>
+        <p class="service-desc">Chef showcases, clothing brand promos, lifestyle content — visuals that tell your story and build your brand identity.</p>
+        <ul class="service-list">
+          <li>Chef & Food Promos</li>
+          <li>Clothing Brands</li>
+          <li>Lifestyle Content</li>
+          <li>Event Coverage</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">04</div>
+      <div class="service-body">
+        <h3 class="service-name">Construction & Industry</h3>
+        <p class="service-desc">Document your builds, showcase your work, and attract new contracts with professional construction media.</p>
+        <ul class="service-list">
+          <li>Build Documentation</li>
+          <li>Timelapse Video</li>
+          <li>Progress Photography</li>
+          <li>Company Showreels</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="about-layout">
+    <div class="about-left reveal">
+      <div class="section-label">About Phos Opus</div>
+      <h2 class="about-title">WE DON'T<br>JUST SHOOT.<br><em>WE TELL<br>STORIES.</em></h2>
+      <div class="about-accent-line" aria-hidden="true"></div>
+    </div>
+    <div class="about-right reveal">
+      <p class="about-lead">We are a video and photography studio based in Newberry &amp; Columbia, SC — and we create media that moves people.</p>
+      <p class="about-body">
+        From luxury apartment walkthroughs to chef promos, brand commercials to construction showcases — we bring the same cinematic vision to every project. We work with real estate agents, businesses, restaurants, construction companies, and brands who understand that <strong>great visuals aren't an expense — they're an investment.</strong>
+      </p>
+      <p class="about-body">
+        With 5 years of experience and 40+ happy clients across South Carolina, we know how to make your project look its absolute best — and how to make it work for your business.
+      </p>
+      <div class="about-pills">
+        <span>Videography</span>
+        <span>Photography</span>
+        <span>Drone / Aerial</span>
+        <span>Color Grading</span>
+        <span>Editing</span>
+        <span>Brand Media</span>
+      </div>
+      <div class="about-socials">
+        <a href="https://instagram.com/phosopus" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          @phosopus
+        </a>
+        <a href="https://facebook.com/phosopus" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Phos Opus
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section--accent">
+  <div class="contact-layout">
+    <div class="contact-left reveal">
+      <div class="section-label" style="color:rgba(255,255,255,0.5);">Get In Touch</div>
+      <h2 class="contact-title">READY TO<br><em>CREATE</em><br>SOMETHING?</h2>
+    </div>
+    <div class="contact-right reveal">
+      <div class="contact-details">
+        <a href="tel:2157898641" class="contact-item">
+          <span class="contact-item-label">Phone</span>
+          <span class="contact-item-val">(215) 789-8641</span>
+        </a>
+        <a href="mailto:phosopus@gmail.com" class="contact-item">
+          <span class="contact-item-label">Email</span>
+          <span class="contact-item-val">phosopus@gmail.com</span>
+        </a>
+        <div class="contact-item">
+          <span class="contact-item-label">Location</span>
+          <span class="contact-item-val">Newberry & Columbia, SC</span>
+        </div>
+      </div>
+      <a href="mailto:phosopus@gmail.com" class="btn-white">
+        Start a Project
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">PHOS<span class="acc">OPUS</span></div>
+    <p class="footer-copy">© 2025 Phos Opus. All rights reserved. Newberry & Columbia, SC.</p>
+    <div class="footer-links">
+      <a href="https://instagram.com/phosopus" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://facebook.com/phosopus" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
